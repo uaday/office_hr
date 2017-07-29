@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    //return 'user';
+////    $data=[
+////        '0'=>[
+////            'name'=>'Welcome',
+////            'city'=>'Dhaka',
+////            'country'=>'Bangladesh',
+////        ]
+////    ];
+////    return $data;
+//    return view('demo');
+//});
+
+Route::get('/','WelcomeController@login');
