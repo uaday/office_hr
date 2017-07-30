@@ -31,4 +31,8 @@ class WelcomeController extends Controller
     {
         return view('admin.login.view_login');
     }
+    public function registration()
+    {
+        return view('admin.registration.view_registration');
+    }
 }

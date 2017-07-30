@@ -25,3 +25,4 @@
 //});
 
 Route::get('/','WelcomeController@login');
+Route::get('/registration','WelcomeController@registration');
